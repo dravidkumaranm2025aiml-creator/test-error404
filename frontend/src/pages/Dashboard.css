@@ -1,0 +1,178 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f5f7fa;
+  color: #172033;
+}
+
+.dashboard {
+  min-height: 100vh;
+  background: #f5f7fa;
+}
+
+.navbar {
+  height: 72px;
+  padding: 0 7%;
+  background: #ffffff;
+  border-bottom: 1px solid #e5e7eb;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 21px;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+}
+
+.connect-btn {
+  padding: 11px 20px;
+  border: none;
+  border-radius: 8px;
+
+  background: #172033;
+  color: white;
+
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.connect-btn:hover {
+  opacity: 0.9;
+}
+
+.dashboard-main {
+  width: 86%;
+  max-width: 1100px;
+  margin: 45px auto;
+}
+
+.welcome {
+  margin-bottom: 30px;
+}
+
+.welcome p {
+  margin: 0 0 6px;
+  color: #6b7280;
+  font-size: 14px;
+}
+
+.welcome h1 {
+  margin: 0;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.balance-card {
+  width: 100%;
+  max-width: 650px;
+  padding: 32px;
+
+  background: #172033;
+  border-radius: 16px;
+  color: white;
+}
+
+.balance-card p {
+  margin: 0 0 18px;
+  color: #aeb6c5;
+  font-size: 14px;
+}
+
+.balance-card h2 {
+  margin: 0;
+  font-size: 42px;
+  font-weight: 600;
+}
+
+.balance-card h2 span {
+  margin-left: 6px;
+  font-size: 17px;
+  color: #aeb6c5;
+}
+
+.wallet-address {
+  margin-top: 20px;
+  font-size: 13px;
+  color: #aeb6c5;
+}
+
+.actions {
+  margin-top: 22px;
+}
+
+.send-btn {
+  padding: 12px 22px;
+  border: none;
+  border-radius: 8px;
+
+  background: #2563eb;
+  color: white;
+
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.send-btn:hover {
+  opacity: 0.9;
+}
+
+.transactions {
+  margin-top: 42px;
+  padding: 25px;
+
+  background: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 14px;
+}
+
+.transaction-header h2 {
+  margin: 0;
+  font-size: 20px;
+}
+
+.empty-state {
+  margin-top: 22px;
+  padding: 35px;
+  text-align: center;
+
+  background: #f8fafc;
+  border-radius: 10px;
+}
+
+.empty-state p {
+  margin: 0 0 7px;
+  font-weight: 600;
+}
+
+.empty-state span {
+  color: #7b8494;
+  font-size: 14px;
+}
+
+@media (max-width: 700px) {
+  .navbar {
+    padding: 0 5%;
+  }
+
+  .dashboard-main {
+    width: 90%;
+    margin-top: 30px;
+  }
+
+  .balance-card {
+    padding: 25px;
+  }
+
+  .balance-card h2 {
+    font-size: 34px;
+  }
+}
